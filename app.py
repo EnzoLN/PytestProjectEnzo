@@ -8,3 +8,6 @@ a = False
 while not a:
     senha = input('Digite sua senha: ')
     a = validaSenha(senha)
+msg = input('Digite a mensagem a criptografar: ')
+encryptedText = encryptMessage(user, senha, msg)
+saveNewLine(encryptedText)
