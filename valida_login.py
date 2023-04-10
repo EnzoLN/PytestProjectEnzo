@@ -40,3 +40,10 @@ def validaSenha(senha):
     else: 
         print('A senha deve conter mais que 10 caracteres. ')
         return False
+    
+def validaMsg(msg):
+    if len(msg) <=70:
+        return True
+    else:
+        print('A mensagem não pode conter mais que 70 caracteres. ')
+        return False
