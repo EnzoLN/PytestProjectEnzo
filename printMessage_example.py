@@ -1,8 +1,8 @@
 from cryptographyFramework import *
 
 initializeRead()
-user = "Enzo"
-password = "3307"
+user = "A"
+password = "A!7aaaaaaa"
 line1 = readNextLine()
 print(line1)
 print(decryptMessage(user, password, line1))

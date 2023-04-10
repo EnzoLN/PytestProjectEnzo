@@ -35,7 +35,7 @@ def validaSenha(senha):
                 print('A senha deve conter um número. ')
                 return False
         else: 
-            print('A senha deve conter um caracteres especial. ')
+            print('A senha deve conter um caracter especial. ')
             return False
     else: 
         print('A senha deve conter mais que 10 caracteres. ')
